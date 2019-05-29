@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+
+.kyoto{background-image: url('../img/kyoto.jpg');}
+
+.mosca{background-image: url('../img/mosca.jpg');}
+
+.parigi{background-image: url('../img/parigi.jpg');}
+
+.big{
+  height: 100vh;
+  width: 100%;
+}
+.overlay{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(37, 37, 37, 0.4);
+}
+
+.text{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 3rem;
+text-transform: uppercase;
+color: white;
+letter-spacing: 4px;
+}
